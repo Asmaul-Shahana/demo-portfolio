@@ -80,19 +80,23 @@ main {
     margin: 0 auto;
 }
 
+section {
+    margin-top: 131px;
+}
+
 /* about section styles */
 .about {
-    margin-top: 131px;
     text-align: center;
-    font-weight: 700;
-    font-size: 35px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 131px 156px;
 }
 
 .section-title {
-    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .section-description {
@@ -108,15 +112,84 @@ main {
     justify-content: space-around;
 }
 
-.about-info {
-
-}
-.info-title{
+.info-title {
     font-size: 20px;
     color: #757575;
 }
-.info-description{
+
+.info-description {
     color: #474747;
     font-weight: 700;
     font-size: 20px;
+}
+
+/* what i do styles */
+
+.what-i-do-description {
+    text-align: center;
+    font-size: 18px;
+    color: #757575;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-bottom: 40px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+}
+
+/* Summery Resume styles */
+.resume-content {
+    display: flex;
+    gap: 71px;
+}
+
+.resume-item {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.resume .title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume .sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    color: #757575;
+}
+hr {
+    color: #D1D1D1;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
 }
